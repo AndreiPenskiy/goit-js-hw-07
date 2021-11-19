@@ -7,6 +7,7 @@ const gallery = document.querySelector('.gallery');
 const imgMarkUp = makeGallery(galleryItems);
 gallery.insertAdjacentHTML('beforeend', imgMarkUp);
 
+
 function makeGallery(items) {
     return items.map(
             ({ preview, original, description }) =>
